@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lee-custom-plugins",
+  "description": "Personal Claude Code plugins for website intelligence and business strategy workflows.",
+  "owner": {
+    "name": "Lee"
+  },
+  "plugins": [
+    {
+      "name": "webcto",
+      "description": "AI CTO workflow for auditing, planning, and validating website intelligence platforms.",
+      "author": {
+        "name": "Lee"
+      },
+      "category": "development",
+      "source": "./plugins/webcto",
+      "homepage": "https://github.com/Harshil-Chavda-Mytsl/webcto"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "webcto",
+  "displayName": "WebCTO",
+  "version": "0.1.0",
+  "description": "Audit, plan, red-team, and validate website intelligence platforms with an AI CTO operating workflow.",
+  "author": {
+    "name": "Lee"
+  },
+  "homepage": "https://github.com/Harshil-Chavda-Mytsl/webcto/tree/main/plugins/webcto",
+  "repository": "https://github.com/Harshil-Chavda-Mytsl/webcto",
+  "license": "MIT",
+  "keywords": [
+    "cto",
+    "website-audit",
+    "seo",
+    "performance",
+    "security",
+    "conversion",
+    "product-strategy"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "agents": "./agents/"
+}
