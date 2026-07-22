@@ -32,10 +32,16 @@ From this repository root:
 claude --plugin-dir ./plugins/webcto
 ```
 
-Then run:
+Then run the full all-in-one audit command:
 
 ```text
-/webcto:audit-website Audit this plan: build a website crawler that scores SEO, accessibility, performance, security, and conversion.
+/webcto:audit-website Audit https://www.example.com using the full WebCTO workflow.
+```
+
+For a platform prompt:
+
+```text
+/webcto:audit-website Use all relevant WebCTO skills to audit this full platform plan: [paste plan]
 ```
 
 You can also ask Claude to use a specific skill, for example:
